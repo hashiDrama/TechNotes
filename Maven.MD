@@ -38,7 +38,7 @@ Note, here the name of `.pom` file should be same as the name of the jar. Also, 
 A Fat JAR is a single JAR file that contains all the compiled Java classes from your project, and all compiled Java classes from all JAR files your project depends on. Fat JARs are also handy if you need to package your application inside a Docker container. Instead of having to add each JAR file your application depends on to the Docker container, you only have to add the Fat JAR of our application. Again, this is much shorter, easier, and it makes your Dockerfile independent of what external dependencies (JAR files) your application uses.  
 Below steps should be followed in order to build a fat jar with maven.
 
-1. **Fat jar pom configuration**
+1. **Fat jar pom configuration**  
 You configure Maven to build a Fat JAR from your project by including the maven-assembly-plugin in your POM file's plugin section. Maven refers to an output product that it builds as an assembly. Hence the name maven-assembly-plugin. Here is an example snippet from a POM file showing an example of a maven-assembly-plugin configuration:
 ```
 <build>
@@ -76,7 +76,7 @@ The configuration XML element inside the maven-assembly-plugin configuration con
 
 The executions XML element tells Maven which Maven build phase and goal this Maven plugin should be executed during. The maven-assembly-plugin should always be executed during the package phase.
 
-2. **Maven command to build fat jars**
+2. **Maven command to build fat jars**  
 The Maven command to make Maven build the Fat JAR for your project is:
 ```
 mvn clean package
