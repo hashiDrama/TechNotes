@@ -35,7 +35,7 @@ Note, here the name of `.pom` file should be same as the name of the jar. Also, 
 
 # Steps to create a fat jar with Maven
 
-A Fat JAR is a single JAR file that contains all the compiled Java classes from your project, and all compiled Java classes from all JAR files your project depends on. Fat JARs are also handy if you need to package your application inside a Docker container. Instead of having to add each JAR file your application depends on to the Docker container, you only have to add the Fat JAR of our application. Again, this is much shorter, easier, and it makes your Dockerfile independent of what external dependencies (JAR files) your application uses.
+A Fat JAR is a single JAR file that contains all the compiled Java classes from your project, and all compiled Java classes from all JAR files your project depends on. Fat JARs are also handy if you need to package your application inside a Docker container. Instead of having to add each JAR file your application depends on to the Docker container, you only have to add the Fat JAR of our application. Again, this is much shorter, easier, and it makes your Dockerfile independent of what external dependencies (JAR files) your application uses.  
 Below steps should be followed in order to build a fat jar with maven.
 
 1. **Fat jar pom configuration**
