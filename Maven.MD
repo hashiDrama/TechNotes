@@ -16,6 +16,8 @@ Below steps explains how to install a dependency which is not available on ***Ma
     <version>1.0</version>
     <packaging>jar</packaging>
     <file>${basedir}/dependencies/someartifact-1.0.jar</file>
+    <generatePom>false</generatePom>
+    <pomFile>${basedir}/dependencies/someartifact-1.0.pom</pomFile>
  </configuration>
  <executions>
     <execution>
