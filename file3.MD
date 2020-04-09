@@ -1,1 +1,1 @@
-This is master, file3
+Now this is test_branch_2, file3
