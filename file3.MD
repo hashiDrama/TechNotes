@@ -1,2 +1,1 @@
-This is master, file3
-changes done by test_branch
+Now this is test_branch, file3
