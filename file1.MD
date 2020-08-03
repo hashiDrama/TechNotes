@@ -1,5 +1,9 @@
 This is master, file1
 Change doen by test_branch
+This is first time change
+This is second change
+This is third change
+=======
 Committing somehing new
 "Demonstrate multi-line commit message in Powershell" -m "Add a title to your commit after -m enclosed in quotes,
 then add the body of your comment after a second -m.
