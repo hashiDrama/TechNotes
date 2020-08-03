@@ -13,3 +13,4 @@ Then close the quotes and hit ENTER twice to apply the commit."
 Trying one more time, the multi line commit
 
 this is step 1 now
+this is step 2 now
