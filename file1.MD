@@ -11,3 +11,5 @@ Press ENTER before closing the quotes to add a line break.
 Repeat as needed.
 Then close the quotes and hit ENTER twice to apply the commit."
 Trying one more time, the multi line commit
+
+this is step 1 now
